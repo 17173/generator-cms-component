@@ -6,6 +6,7 @@ define(function(require, exports, module) {
   var data = require('./src/widget.json');
   var template = require('./src/widget.handlebars');
 
+  require('./src/widget.css');
 
   var html = template({widget:data});
   $('#content').html(html);

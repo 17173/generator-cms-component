@@ -1,6 +1,7 @@
 'use strict';
 var util = require('util');
 var path = require('path');
+var chalk = require('chalk');
 var yeoman = require('yeoman-generator');
 
 
@@ -47,7 +48,7 @@ CmsWidgetGenerator.prototype.askFor = function askFor() {
   }, {
     name: 'description',
     message: 'Your widget description',
-    default: ''
+    default: 'cms widget'
   }, {
     name: 'version',
     message: 'Your widget version',
@@ -65,6 +66,7 @@ CmsWidgetGenerator.prototype.askFor = function askFor() {
 
 CmsWidgetGenerator.prototype.app = function app() {
   this.directory('src', 'src');
+  this.directory('sea-modules', 'sea-modules');
 
   this.copy('_package.json', 'package.json');
   this.copy('editorconfig', '.editorconfig');
@@ -73,5 +75,6 @@ CmsWidgetGenerator.prototype.app = function app() {
   this.copy('index.html', 'index.html');
   this.copy('index.js', 'index.js');
   this.copy('.gitignore', '.gitignore');
+  this.copy('README.md', 'README.md');
 };
 

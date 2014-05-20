@@ -1,13 +1,19 @@
 {
   "name": "<%= _.slugify(name) %>",
   "description": "<%= _.slugify(description) %>",
-  "version": "<%= _.slugify(version) %>",
+  "version": "<%= version %>",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "spm": {
+    "alias": {
+      "handlebars": "gallery/handlebars/1.0.2/handlebars",
+      "jquery":"jquery/jquery/1.10.1/jquery"
+    }
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "~0.4.0",
