@@ -8,6 +8,6 @@ define(function(require, exports, module) {
 
   require('./src/widget.css');
 
-  var html = template({widget:data});
+  var html = template(data);
   $('#content').html(html);
 });
