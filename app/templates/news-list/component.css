@@ -1,0 +1,8 @@
+.component-news{ border:1px solid #ccc;}
+.component-news .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
+.component-news-list{
+    list-style: decimal;
+}
+.component-news-item{
+    line-height: 30px;
+}

@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A generator for Yeoman",
   "keywords": [
-    "yeoman-generator, cms-widget"
+    "yeoman-generator, cms-component"
   ],
-  "homepage": "https://github.com/17173/generator-cms-widget",
+  "homepage": "https://github.com/17173/generator-cms-component",
   "bugs": "https://github.com/17173/generator-cms-widget/issues",
   "author": {
     "name": "lynzz",
@@ -15,7 +15,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/lynzz/generator-cms-widget.git"
+    "url": "git://github.com/17173/generator-cms-component.git"
   },
   "scripts": {
     "test": "mocha"

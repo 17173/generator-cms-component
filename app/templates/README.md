@@ -5,11 +5,12 @@
 
 ```
 |- dist                             #最终压缩的目录
-  |- widget.zip                     #组件模板压缩包
+  |- component.zip                     #组件模板压缩包
 |- src
-  |- widget.css                     #组件样式
-  |- widget.handlebars              #组件模板
-  |- widget.json                    #组件数据
+  |- component.css                     #组件样式
+  |- component.handlebars              #组件模板
+  |- component.json                    #组件数据
+  |- component.png                     #组件缩略图
 
 ```
 

@@ -1,0 +1,14 @@
+<div class="component-tabs" >
+  <div class="hd">
+    <ul class="tab-holders" data-component="tabs">
+      {{#each data.tabs}}
+      <li class="tab-item"><a class="tab-item-link" data-role="tab" href="{{url}}">{{title}}</a></li>
+      {{/each}}}
+    </ul>
+  </div>
+  <div class="bd">
+    {{#each data.panels}}
+      <div class="tab-panel" data-role="pane">{{content}}</div>
+    {{/each}}
+  </div>
+</div>

@@ -1,0 +1,3 @@
+.component-menu{}
+.component-menu .menu-sub{ display: none;}
+.component-menu .menu-main-item:hover .menu-sub{ display: block;}

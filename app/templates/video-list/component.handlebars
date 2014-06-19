@@ -1,0 +1,16 @@
+<div class="component-video">
+    <div class="hd">
+        <h3>{{config.title}}</h3>
+    </div>
+    <div class="bd">
+        <ol class="component-video-list">
+          {{#each data}}
+              <li class="component-video-item">
+                <a href="{{href}}"><img src="{{src}}"></a>
+                <p>{{title}}</p>
+              </li>
+          {{/each}}
+        </ol>
+    </div>
+</div>
+

@@ -1,0 +1,36 @@
+.component-tabs{ padding: 0; margin: 0 }
+.component-tabs .hd{ overflow: hidden;}
+.component-tabs .tab-holders{
+  list-style: none;
+  overflow: hidden;
+  border-right: 1px solid #ddd;
+}
+.component-tabs .tab-item{
+  width: 73px;
+  float: left;
+}
+.component-tabs .tab-item-link{
+  display: block;
+  height: 27px;
+  padding-top: 1px;
+  color: #666;
+  line-height: 27px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-right: 0;
+  background: url(http://ue1.17173.itc.cn/a/www/index/2014/images/b1.png?201403261650) 0 -126px no-repeat;
+}
+.component-tabs .active .tab-item-link{
+  padding-top: 0;
+  color: #333;
+  font-weight: bold;
+  border-top: 2px solid #646464;
+  background: #fff;
+}
+.component-tabs .bd{
+  padding-top: 1px;
+  border: 1px solid #ddd;
+  border-top: 0; 
+}
+.component-tabs .tab-panel{display: none; overflow: hidden;}
+.component-tabs .bd .active{display: block;}

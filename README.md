@@ -1,4 +1,4 @@
-# generator-cms-widget [![Build Status](https://secure.travis-ci.org/lynzz/generator-cms-widget.png?branch=master)](https://travis-ci.org/lynzz/generator-cms-widget)
+# generator-cms-component [![Build Status](https://secure.travis-ci.org/lynzz/generator-cms-component.png?branch=master)](https://travis-ci.org/lynzz/generator-cms-component)
 
 A generator for [Yeoman](http://yeoman.io).
 
@@ -23,16 +23,16 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-cms-widget from npm, run:
+To install generator-cms-component from npm, run:
 
 ```
-$ npm install -g generator-cms-widget
+$ npm install -g generator-cms-component
 ```
 
 Finally, initiate the generator:
 
 ```
-$ yo cms-widget
+$ yo cms-component
 ```
 
 ### Getting To Know Yeoman

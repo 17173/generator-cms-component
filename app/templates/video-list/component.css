@@ -1,0 +1,15 @@
+.component-video{ border:1px solid #ccc;}
+.component-video .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
+.component-video-list{
+}
+.component-video-list:before, .component-video-list:after{
+  content: " ";
+  display: table;
+}
+.component-video-item{
+    line-height: 30px;
+    list-style: none;
+    float: left;
+    width: 160px;
+    margin-left: 10px;
+}

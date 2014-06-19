@@ -1,0 +1,13 @@
+<div class="component-news">
+    <div class="hd">
+        <h3>{{config.title}}</h3>
+    </div>
+    <div class="bd">
+        <ol class="component-news-list">
+          {{#each data}}
+              <li><a class="component-news-item" href="{{href}}">{{title}}</a><span class="component-news-date"> {{dateFormat publishTime ../config.dateFormat}}</span></li>
+          {{/each}}
+        </ol>
+    </div>
+</div>
+

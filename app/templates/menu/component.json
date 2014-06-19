@@ -1,0 +1,33 @@
+{
+  "config": {
+    "title": "导航菜单",
+    "titleLink": "www.17173.com",
+    "titleLimit": 50,
+    "showMore": "1",
+    "dateFormat": "MM-dd",
+    "showPager": "1",
+    "totalCount": 10,
+    "pageSize": 10
+  },
+  "data": [{
+    "text": "一级菜单1",
+    "url": "www.17173.com",
+    "children": [{
+      "text": "二级菜单11",
+      "url": "www.17173.com"
+    }, {
+      "text": "二级菜单12",
+      "url": "www.17173.com"
+    }]
+  }, {
+    "text": "一级菜单2",
+    "url": "www.17173.com",
+    "children": [{
+      "text": "二级菜单21",
+      "url": "www.17173.com"
+    }, {
+      "text": "二级菜单22",
+      "url": "www.17173.com"
+    }]
+  }]
+}

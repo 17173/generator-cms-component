@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "lynzz",
+  "license": "MIT",
   "spm": {
     "alias": {
       "handlebars": "gallery/handlebars/1.0.2/handlebars",
-      "handlebars-helper": "gallery/handlebars-helper/1.3.0/handlebars-helper",
-      "jquery": "jquery/jquery/1.10.1/jquery"
+      "handlebars-helpers": "gallery/handlebars-helpers/1.3.0/handlebars-helpers",
+      "seajs": "seajs/seajs/2.2.1/sea",
+      "seajs-text": "seajs/seajs-text/1.0.2/seajs-text",
+      "seajs-style": "seajs/seajs-style/1.0.2/seajs-style",
+      "jquery": "jquery/jquery/2.1.0/jquery"
     }
   },
   "devDependencies": {

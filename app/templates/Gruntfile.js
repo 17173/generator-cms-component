@@ -60,7 +60,7 @@ module.exports = function(grunt) {
       widget: {
         cwd: 'src/',
         src: ['src/**.*'],
-        dest: 'dist/widget.zip'
+        dest: 'dist/component.zip'
       }
     },
     clean: {

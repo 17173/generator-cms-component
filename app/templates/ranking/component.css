@@ -1,0 +1,8 @@
+.component-ranking{ border:1px solid #ccc;}
+.component-ranking .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
+.component-ranking-list{
+    list-style: decimal;
+}
+.component-ranking-item{
+    line-height: 30px;
+}

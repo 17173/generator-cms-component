@@ -5,14 +5,14 @@ var path    = require('path');
 var helpers = require('yeoman-generator').test;
 
 
-describe('cms-widget generator', function () {
+describe('cms-component generator', function () {
     beforeEach(function (done) {
         helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
             if (err) {
                 return done(err);
             }
 
-            this.app = helpers.createGenerator('cms-widget:app', [
+            this.app = helpers.createGenerator('cms-component:app', [
                 '../../app'
             ]);
             done();
