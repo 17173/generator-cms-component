@@ -3,7 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>组件预览</title>
-    <link href="http://ue.17173cdn.com/a/lib/gallery/bootstrap/3.0.0/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1170px;
+            }
+        }
+        @media (min-width: 992px) {
+            .container {
+                max-width: 970px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 750px;
+            }
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .row:before, .row:after {
+            display: table;
+            content: " ";
+        }
+        .page-header {
+            padding-bottom: 9px;
+            margin: 40px 0 20px;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
