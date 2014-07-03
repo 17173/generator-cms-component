@@ -1,12 +1,12 @@
 {
   "name": "generator-cms-component",
-  "version": "1.0.0",
-  "description": "A generator for Yeoman",
+  "version": "1.0.1",
+  "description": "A generator for cms component",
   "keywords": [
     "yeoman-generator, cms-component"
   ],
   "homepage": "https://github.com/17173/generator-cms-component",
-  "bugs": "https://github.com/17173/generator-cms-widget/issues",
+  "bugs": "https://github.com/17173/generator-cms-component/issues",
   "author": {
     "name": "lynzz",
     "email": "lynzz168@gmail.com",
