@@ -10,6 +10,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     //component: grunt.file.readJSON('component.json' ),
+    pkg: grunt.file.readJSON('package.json'),
     open: {
       server: {
         url: 'http://localhost:<%= connect.options.port %>/index.html'
@@ -60,7 +61,7 @@ module.exports = function(grunt) {
       widget: {
         cwd: 'src/',
         src: ['src/**.*'],
-        dest: 'dist/component.zip'
+        dest: 'dist/<%= pkg.name %>.zip'
       }
     },
     clean: {
