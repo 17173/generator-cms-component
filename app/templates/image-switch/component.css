@@ -1,0 +1,19 @@
+.component-image{ border:1px solid #ccc;}
+.component-image .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
+.component-image .bd{padding-top: 10px;}
+.component-image-list:after{
+    list-style: decimal;
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.component-image-item{
+  float: left;
+  width: 160px;
+  margin-right: 30px;
+}
+.component-image-title{
+    line-height: 30px;
+}
