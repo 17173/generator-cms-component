@@ -1,0 +1,19 @@
+<ul class="component component-gallery">
+  {{#each data}}
+  <li class="component-graphic-item clearfix">
+    <a href="{{href}}" class="component-graphic-thumb">
+      <img src="{{src}}" alt="{{title}}">
+    </a>
+    <div class="component-graphic-content">
+      <div class="component-graphic-title">
+        <h3>{{title}}</h3>
+      </div>
+      <p class="component-graphic-summary">
+        {{summary}}
+      </p>
+    </div>
+
+  </li>
+  {{/each}}
+</ul>
+

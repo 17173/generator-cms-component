@@ -1,0 +1,14 @@
+.component-graphic{ border:1px solid #ccc;}
+.component-graphic .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
+.component-graphic-list{list-style: none}
+.component-graphic-item {
+  margin-bottom: 20px;
+}
+.component-graphic-content{
+  float: left;
+  padding-left: 20px;
+}
+.component-graphic-title{
+
+}
+.component-graphic-thumb{float: left;}

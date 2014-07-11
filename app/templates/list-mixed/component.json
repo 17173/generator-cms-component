@@ -1,4 +1,8 @@
 {
+    "author" : "lzz",
+    "type": "list-mixed",
+    "version": "1.0.0",
+    "name": "图文列表",
   "config": {
     "title": "图文列表",
     "titleLink": "www.17173.com",

@@ -4,14 +4,13 @@ var path = require('path');
 var chalk = require('chalk');
 var yeoman = require('yeoman-generator');
 var ENUM = {
-  'NEWS_LIST': 'news-list',
-  'IMAGE_LIST': 'image-list',
-  'GRAPHIC_LIST': 'graphic-list',
-  'VIDEO_LIST': 'video-list',
-  'IMAGE_SWITCH': 'image-switch',
-  'SINGLE_IMAGE': 'single-image',
+  'NEWS_LIST': 'list-news',
+  'IMAGE_LIST': 'list-image',
+  'GRAPHIC_LIST': 'list-mixed',
+  'VIDEO_LIST': 'list-video',
+  'IMAGE_SWITCH': 'image',
   'TAB': 'tab',
-  'RANKING': 'ranking',
+  'RANKING': 'board',
   'MENU': 'menu',
   'GALLERY': 'gallery'
 }
@@ -98,11 +97,8 @@ CmsWidgetGenerator.prototype.askForSelect = function askForSelect() {
           name: '视频列表',
           value: ENUM.VIDEO_LIST
         }, {
-          name: '图片轮播',
+          name: '图片',
           value: ENUM.IMAGE_SWITCH
-        }, {
-          name: '单张图片',
-          value: ENUM.SINGLE_IMAGE
         }, {
           name: '排行榜',
           value: ENUM.RANKING
@@ -115,6 +111,8 @@ CmsWidgetGenerator.prototype.askForSelect = function askForSelect() {
         }, {
           name: '组图组件',
           value: ENUM.GALLERY
+        }, {
+
         }
       ]
     }

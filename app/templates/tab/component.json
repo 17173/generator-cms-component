@@ -1,30 +1,28 @@
 {
-  "config": {
-    "title": "新闻列表",
-    "titleLink": "www.17173.com",
-    "titleLimit": 50,
-    "showMore": "1",
-    "dateFormat": "MM-dd",
-    "showPager": "1",
-    "totalCount": 10,
-    "pageSize": 10
-  },
-  "data": {
-    "tabs": [
-      {
-        "title": "标签1",
-        "url": "www.17173.com"
-      }, {
-        "title": "标签2",
-        "url": "www.17173.com"
-      }
-    ],
-    "panels": [
-      {
-        "content": "标签内容1"
-      },{
-        "content": "标签内容1"
-      }
+    "author": "lzz",
+    "type": "tab",
+    "version": "1.0.0",
+    "name": "tab",
+    "config": {
+        "title": "tab",
+        "titleLink": "www.17173.com",
+        "titleLimit": 50,
+        "showMore": "1",
+        "dateFormat": "MM-dd",
+        "showPager": "1",
+        "totalCount": 10,
+        "pageSize": 10
+    },
+    "data": [
+        {
+            "title": "标签1",
+            "url": "www.17173.com",
+            "content": "标签内容1"
+        },
+        {
+            "title": "标签2",
+            "url": "www.17173.com",
+            "content": "标签内容2"
+        }
     ]
-  }
 }   

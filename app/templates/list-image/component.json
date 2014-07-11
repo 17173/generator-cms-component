@@ -1,4 +1,8 @@
 {
+  "author" : "lzz",
+  "type": "list-image",
+  "version": "1.0.0",
+  "name": "图片列表",
   "config": {
     "title": "图片列表",
     "titleLink": "www.17173.com",
