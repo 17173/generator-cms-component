@@ -7,12 +7,15 @@
           {{#each data}}
             <div class="component-image-item">
               <a href="{{href}}" class="component-image-thumb">
-                <img src="{{src}}" alt="{{title}}">
+                <img src="{{src}}" alt="{{title}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}>
               </a>
               <p class="component-image-title">{{title}}</p>
             </div>
           {{/each}}
         </ol>
     </div>
+    {{#if config.showMore}} 
+        <div class="showmore"><a href="{{config.link}}">More</a></div>
+    {{/if}}
 </div>
 

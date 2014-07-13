@@ -6,11 +6,14 @@
         <ol class="component-video-list">
           {{#each data}}
               <li class="component-video-item">
-                <a href="{{href}}"><img src="{{src}}"></a>
+                <a href="{{href}}"><img src="{{src}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}></a>
                 <p>{{title}}</p>
               </li>
           {{/each}}
         </ol>
     </div>
+    {{#if config.showMore}} 
+      <div class="showmore"><a href="{{config.link}}">More</a></div>
+  {{/if}}
 </div>
 

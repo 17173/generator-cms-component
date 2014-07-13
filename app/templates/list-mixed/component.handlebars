@@ -1,19 +1,23 @@
-<ul class="component component-graphic-list">
-  {{#each data}}
-  <li class="component-graphic-item clearfix">
-    <a href="{{href}}" class="component-graphic-thumb">
-      <img src="{{src}}" alt="{{title}}">
-    </a>
-    <div class="component-graphic-content">
-      <div class="component-graphic-title">
-        <h3>{{title}}</h3>
+<div class="component component-graphic-list">
+  <ul>
+    {{#each data}}
+    <li class="component-graphic-item clearfix">
+      <a href="{{href}}" class="component-graphic-thumb">
+        <img src="{{src}}" alt="{{title}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}>
+      </a>
+      <div class="component-graphic-content">
+        <div class="component-graphic-title">
+          <h3>{{title}}</h3>
+        </div>
+        <p class="component-graphic-summary">
+          {{summary}}
+        </p>
       </div>
-      <p class="component-graphic-summary">
-        {{summary}}
-      </p>
-    </div>
 
-  </li>
-  {{/each}}
-</ul>
-
+    </li>
+    {{/each}}
+  </ul>
+  {{#if config.showMore}} 
+      <div class="showmore"><a href="{{config.link}}">More</a></div>
+  {{/if}}
+</div>

@@ -12,4 +12,5 @@ define(function(require, exports, module) {
     helpers: helpers
   });
   $('#content').html(html);
+  autoRender && autoRender();
 });
