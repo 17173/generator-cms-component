@@ -2,7 +2,7 @@
 define(function(require, exports, module) {
   var $ = require('$');
   var helpers = require('handlebars-helpers');
-
+  var autoRender = require('autorender');
   var data = require('./src/component.json');
   var template = require('./src/component.handlebars');
 
