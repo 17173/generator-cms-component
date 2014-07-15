@@ -16,13 +16,13 @@
     "data": [
         {
             "title": "标签1",
-            "url": "www.17173.com",
-            "content": "标签内容1"
+            "pageUrl": "www.17173.com",
+            "description": "标签内容1"
         },
         {
             "title": "标签2",
-            "url": "www.17173.com",
-            "content": "标签内容2"
+            "pageUrl": "www.17173.com",
+            "description": "标签内容2"
         }
     ]
 }   

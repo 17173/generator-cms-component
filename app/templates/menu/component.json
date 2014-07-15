@@ -15,30 +15,36 @@
     },
     "data": [
         {
-            "text": "一级菜单1",
-            "url": "www.17173.com",
+            "title": "一级菜单1",
+            "pageUrl": "www.17173.com",
+            "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
             "children": [
                 {
-                    "text": "二级菜单11",
-                    "url": "www.17173.com"
+                    "title": "二级菜单11",
+                    "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
+                    "pageUrl": "www.17173.com"
                 },
                 {
-                    "text": "二级菜单12",
-                    "url": "www.17173.com"
+                    "title": "二级菜单12",
+                    "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
+                    "pageUrl": "www.17173.com"
                 }
             ]
         },
         {
-            "text": "一级菜单2",
-            "url": "www.17173.com",
+            "title": "一级菜单2",
+            "pageUrl": "www.17173.com",
+            "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
             "children": [
                 {
-                    "text": "二级菜单21",
-                    "url": "www.17173.com"
+                    "title": "二级菜单21",
+                    "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
+                    "pageUrl": "www.17173.com"
                 },
                 {
-                    "text": "二级菜单22",
-                    "url": "www.17173.com"
+                    "title": "二级菜单22",
+                    "imgPath" : "http://msnms.allyes.com.cn/msnms/2014nian/20140711/300x250.gif",
+                    "pageUrl": "www.17173.com"
                 }
             ]
         }

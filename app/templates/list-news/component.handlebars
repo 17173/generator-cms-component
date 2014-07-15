@@ -5,7 +5,7 @@
     <div class="bd">
         <ol class="component-news-list">
           {{#each data}}
-              <li><a class="component-news-item" href="{{href}}">{{title}}</a><span class="component-news-date"> {{dateFormat publishTime ../config.dateFormat}}</span></li>
+              <li><a class="component-news-item" href="{{pageUrl}}">{{title}}</a><span class="component-news-date"> {{dateFormat publishTime ../config.dateFormat}}</span></li>
           {{/each}}
         </ol>
     </div>

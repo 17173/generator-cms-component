@@ -7,24 +7,28 @@
         "title": "图片",
         "dateFormat": "dd",
         "titleLimit": "10",
-        "titleLink": "www.17173.com"
+        "titleLink": "www.17173.com",
+        "imageHeight" : 100,
+        "imageWidth" : 100,
+        "playMode" : 2,
+        "interval" : 3
     },
     "data": [
         {
-            "linkUrl": "http://www.17173.com",
-            "imgUrl": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
-            "imgAlt": "解读FF14不删档信息 请慎重购买",
-            "imgDescription":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析1111"
+            "pageUrl": "http://www.17173.com",
+            "imgPath": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
+            "title": "解读FF14不删档信息 请慎重购买",
+            "description":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析1111"
         }, {
-            "linkUrl": "http://www.17173.com",
-            "imgUrl": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
-            "imgAlt": "解读FF14不删档信息 请慎重购买",
-            "imgDescription":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析2222"
+            "pageUrl": "http://www.17173.com",
+            "imgPath": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
+            "title": "解读FF14不删档信息 请慎重购买",
+            "description":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析2222"
         }, {
-            "linkUrl": "http://www.17173.com",
-            "imgUrl": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
-            "imgAlt": "解读FF14不删档信息 请慎重购买",
-            "imgDescription":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析3333"
+            "pageUrl": "http://www.17173.com",
+            "imgPath": "http://images.17173.com/2014/xin/2014/07/02/csq0702hzls.jpg",
+            "title": "解读FF14不删档信息 请慎重购买",
+            "description":"<strong>解读FF14不删档信息 请慎重购买<\/strong>买39包和78元包有什么区别？小编为你解析3333"
         }
     ]
 }

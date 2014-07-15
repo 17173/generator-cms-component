@@ -6,8 +6,8 @@
         <ol class="component-image-list">
           {{#each data}}
             <div class="component-image-item">
-              <a href="{{href}}" class="component-image-thumb">
-                <img src="{{src}}" alt="{{title}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}>
+              <a href="{{pageUrl}}" class="component-image-thumb">
+                <img src="{{imgPath}}" alt="{{title}}" {{#if config.imageHeight}}height="{{config.imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{config.imageWidth}}px"{{/if}}>
               </a>
               <p class="component-image-title">{{title}}</p>
             </div>

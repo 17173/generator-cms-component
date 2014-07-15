@@ -6,7 +6,7 @@
         <ol class="component-video-list">
           {{#each data}}
               <li class="component-video-item">
-                <a href="{{href}}"><img src="{{src}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}></a>
+                <a href="{{pageUrl}}"><img src="{{imgPath}}" {{#if config.imageHeight}}height="{{config.imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{config.imageWidth}}px"{{/if}}></a>
                 <p>{{title}}</p>
               </li>
           {{/each}}

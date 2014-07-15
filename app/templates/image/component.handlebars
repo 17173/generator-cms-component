@@ -7,14 +7,8 @@
     <div class="tab-content" data-role="panes">
         {{#each data}}
             <div class="component-image-list tab-pane fade" data-role="pane">
-                <div class="img"><a href="{{linkUrl}}" target="_blank"><img src="{{imgUrl}}" alt="{{imgAlt}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}></a></div>
-                <p class="txt"><a href="{{linkUrl}}" target="_blank">{{{imgDescription}}}</a><b class="bg"></b></p>
-            </div>
-        {{/each}}
-        {{#each data}}
-            <div class="component-image-list tab-pane fade" data-role="pane">
-                <div class="img"><a href="{{href}}" target="_blank"><img src="{{src}}" alt="{{title}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}></a></div>
-                <p class="txt"><a href="{{href}}" target="_blank">{{{summary}}}</a><b class="bg"></b></p>
+                <div class="img"><a href="{{pageUrl}}" target="_blank"><img src="{{imgPath}}" alt="{{title}}" {{#if config.imageHeight}}height="{{config.imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{config.imageWidth}}px"{{/if}}></a></div>
+                <p class="txt"><a href="{{pageUrl}}" target="_blank">{{{description}}}</a><b class="bg"></b></p>
             </div>
         {{/each}}
     </div>

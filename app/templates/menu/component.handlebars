@@ -2,11 +2,11 @@
     <ul class="menu-main">
     {{#each data}}
       <li class="menu-main-item">
-        <a href="{{url}}">{{text}}</a>
+        <a href="{{pageUrl}}">{{title}}</a>
         {{#if children}}
           <ul class="menu-sub">
           {{#each children}}
-            <li class="menu-sub-item"><a href="{{url}}">{{text}}</a></li>
+            <li class="menu-sub-item"><a href="{{pageUrl}}">{{title}}</a></li>
           {{/each}}
           </ul>
         {{/if}}

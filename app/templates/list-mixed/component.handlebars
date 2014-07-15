@@ -2,15 +2,15 @@
   <ul>
     {{#each data}}
     <li class="component-graphic-item clearfix">
-      <a href="{{href}}" class="component-graphic-thumb">
-        <img src="{{src}}" alt="{{title}}" {{#if config.imageHeight}}height="{{imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{imageWidth}}px"{{/if}}>
+      <a href="{{pageUrl}}" class="component-graphic-thumb">
+        <img src="{{imgPath}}" alt="{{title}}" {{#if config.imageHeight}}height="{{config.imageHeight}}px"{{/if}} {{#if config.imageWidth}}width="{{config.imageWidth}}px"{{/if}}>
       </a>
       <div class="component-graphic-content">
         <div class="component-graphic-title">
           <h3>{{title}}</h3>
         </div>
         <p class="component-graphic-summary">
-          {{summary}}
+          {{description}}
         </p>
       </div>
 
