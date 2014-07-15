@@ -5,26 +5,26 @@
     "name": "组图",
     "config": {
         "title": "组图",
-        "titleLink": "www.17173.com",
-        "titleLimit": 50,
-        "showMore": "1",
-        "dateFormat": "MM-dd",
-        "showPager": "1",
-        "totalCount": 10,
-        "pageSize": 10
+        "imageWidth": "120", //图片宽度
+        "imageHeight": "120", //图片高度
+        "playMode": "2", //播放方式: 1 左右滚动 ，2上下滚动 , 3渐变
+        "interval": "5" //间隔
     },
-    "data": [
-        {
-            "title": "电玩未来9大趋势：数字与实体的跨界或已到来",
-            "href": "http://17173.com",
-            "summary": "这是概要内容概要内容概要内容概要内容概要内容概要内容",
-            "publishTime": "10-12"
-        },
-        {
-            "title": "电玩未来9大趋势：数字与实体的跨界或已到来",
-            "href": "http://17173.com",
-            "summary": "这是概要内容概要内容概要内容概要内容概要内容概要内容",
-            "publishTime": "10-12"
-        }
-    ]
+    "data": {
+        "title" : "女星雷人造型", //标题
+        "imgUrl" : "http://stimgcn2.s-msn.com/msnportal/fashion/2014/07/11/844cf2cf-0117-4c12-9da1-93a4f98ac586.jpg",//封面图片
+        "imgTitle" : "女星雷人造型", //封面标题
+        "tags" : "明星 时尚", //标签
+    
+        "children" : [
+            {
+                "description" : "哈哈哈测试1",//描述
+                "imgPath" : "http://stimgcn2.s-msn.com/msnportal/fashion/2014/07/11/844cf2cf-0117-4c12-9da1-93a4f98ac586.jpg"//图片
+            },
+            {
+               "description" : "哈哈哈测试2",//描述
+                "imgPath" : "http://stimgcn4.s-msn.com/msnportal/fashion/2014/07/11/c1432060-52aa-4099-9b30-c81c795fb824.jpg"//图片
+            }
+        ]
+    }
 }   

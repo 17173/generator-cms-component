@@ -1,19 +1,25 @@
-<ul class="component component-gallery">
-  {{#each data}}
-  <li class="component-graphic-item clearfix">
-    <a href="{{href}}" class="component-graphic-thumb">
-      <img src="{{src}}" alt="{{title}}">
-    </a>
-    <div class="component-graphic-content">
-      <div class="component-graphic-title">
-        <h3>{{title}}</h3>
-      </div>
-      <p class="component-graphic-summary">
-        {{summary}}
-      </p>
+<div class="component component-gallery">
+  <div class="picbox">
+    <div>
+      <img src="{{data.imgUrl}}" alt="{{data.imgTitle}}">
     </div>
-
-  </li>
-  {{/each}}
-</ul>
-
+    <s class="p_left" title="上一张">&nbsp;</s>
+    <s class="p_right" title="下一张">&nbsp;</s>
+    <div class="summary">
+      <div class="description">
+        <p>{{data.title}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="photolist">
+    <ul class="cf">
+      {{#each data.children}}
+        <li>
+          <a target="_blank" href="#">
+            <img alt="{{description}}" src="{{imgPath}}">
+          </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
