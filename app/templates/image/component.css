@@ -1,6 +1,12 @@
 .component-image{ border:1px solid #ccc;}
-.component-image .hd{ border-bottom: 1px solid #ccc; padding-left: 10px}
-.component-image .bd{padding-top: 10px;}
+.component-image .nav-tabs{list-style: none; position: absolute;margin-left: -25px;}
+.component-image .nav-tabs li{float: left; margin-left: 3px;background-color: #fff;}
+.component-image .nav-tabs li.active{color: #000;background-color: #aaa;}
+.component-image .nav-tabs li a{text-decoration:none;padding: 0 3px;}
+.component-image .nav-tabs li a:hover{color: #000;background-color: #aaa;}
+.component-image .tab-content {float: left;}
+.component-image .tab-content .fade{display: none;}
+.component-image .tab-content .active{display: block;}
 .component-image-list:after{
     list-style: decimal;
     content: '';
